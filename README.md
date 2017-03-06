@@ -1,5 +1,3 @@
-# training-checkout
-
 Supermarket Checkout
 ====================
 
@@ -12,6 +10,7 @@ pence individually but this week we have a special offer where you can buy 3 As 
 This week’s prices are the following:
 
 | Item | Unit Price | Special Price |
+|------|------------|---------------|
 |    A |         50 |     3 for 130 |
 |    B |         30 |      2 for 45 |
 |    C |         20 |               |
@@ -23,7 +22,7 @@ Extra points: Because the pricing changes frequently we will need to be able to 
 rules each time we start handling a checkout transaction.
 
 Dev Notes
-=========
+---------
 - find the Scenario Descriptions in `src/test/resources/checkout.feature`
 - execute the following command on this directory to execute the tests
 ```
